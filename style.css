@@ -7,6 +7,9 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #ffffff;
+    overflow-x: hidden;
+    max-width:100%;
+    
 }
 main{
     display: flex;
