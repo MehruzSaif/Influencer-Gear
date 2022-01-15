@@ -305,6 +305,9 @@ footer{
         flex-direction: column;
         margin-left: 17%;
     }
+    .contact-info{
+        margin-left: 0%;
+    }
     .contact-form{
         margin-left: 30%;
     }
@@ -336,10 +339,17 @@ footer{
         }
         .products{
             grid-template-columns: repeat(2, 1fr);
-            margin-left: 0%;
+            grid-column-gap: 0px;
+            margin-left: -10%;
         }
         .product{
             flex-direction: column;
+            width: 300px;
+            height: 400px;
+        }
+        .product .product-banner img{
+            width: 200px;
+            height: 156px;
         }
         .bottom-container{
             display: grid;
