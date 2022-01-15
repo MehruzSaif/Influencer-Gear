@@ -238,6 +238,9 @@ footer{
     text-align: center;
     color: white;
 }
+.footer-icon a{
+    color: white;
+}
 .footer-header{
     font-size: 24px;
     font-weight: 700;
