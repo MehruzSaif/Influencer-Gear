@@ -330,7 +330,7 @@ footer{
             height: 402px;
         }
         .products{
-            grid-template-columns: repeat(3, 1fr);
+            grid-template-columns: repeat(2, 1fr);
             margin-left: 17%;
         }
         .product{
