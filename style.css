@@ -312,20 +312,21 @@ footer{
 
     /* tablet devices */
 
-    @media only screen and (min-width: 570px) and (max-width: 992px){
+    @media only screen and (min-width: 571px) and (max-width: 992px){
         .container{
             flex-wrap: wrap;
         }
         .flexible-container{
             width: 100%;
-            grid-template-columns: repeat(2, 1fr);
+            grid-template-columns: repeat(1, 1fr);
+            flex-direction: column;
         }
         .half-width{
             text-align: center;
             margin-left: 0%;
         }
         .half-width .main-image img{
-            margin-left: 30%;
+            margin-left: -20%;
             width: 525px;
             height: 402px;
         }
